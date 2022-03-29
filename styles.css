@@ -36,25 +36,27 @@ article {
 h1 {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 75px;
   padding: 50px;
 }
 
 img {
-  display: flex;
-  align-self: center;
-  height: 350px;
-  width: 350px;
+  height: 450px;
+  width: 450px;
   border-radius: 50%;
   margin-right: 10px;
+  border: 5px solid gainsboro;
+}
+
+#about-me {
+  font-size: 40px;
 }
 
 .about-me-section {
   text-align: center;
   align-self: center;
-  float: right;
 }
-/*
+
 .project-list {
   display: grid;
 }
@@ -63,8 +65,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: firebrick;
-  border-top: 5px solid silver;
+  background-color: grey;
+  border-top: 5px solid firebrick;
 }
 
 #message {
