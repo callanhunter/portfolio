@@ -1,22 +1,17 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 main {
   background-color: ghostwhite;
 }
 
 nav {
-  border-bottom: 5px solid firebrick;
 }
 
 ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  background: silver;
-  padding: 20px;
+  background: grey;
+  width: 100%;
+  padding: 40px;
   border-bottom: 5px solid firebrick;
 }
 
@@ -26,6 +21,12 @@ li {
 
 a {
   color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: darkgray;
 }
 
 article {
@@ -45,15 +46,15 @@ img {
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  float: left;
   margin-right: 10px;
 }
 
-.about-me {
+.about-me-section {
   text-align: center;
   align-self: center;
+  float: right;
 }
-
+/*
 .project-list {
   display: grid;
 }
