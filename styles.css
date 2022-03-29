@@ -1,13 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 main {
   background-color: ghostwhite;
+  padding: 20px;
+  margin: 10px;
+  word-spacing: 5px;
 }
 
 nav {
   border-bottom: 5px solid firebrick;
-}
-
-section {
-  position: relative;
 }
 
 ul {
@@ -23,13 +27,12 @@ li {
   font-size: 25px;
 }
 
-article {
-  display: flex;
-  justify-content: center;
-}
-
 a {
   color: white;
+}
+
+article {
+  position: relative;
 }
 
 h1 {
@@ -42,6 +45,13 @@ img {
   height: 400px;
   width: 400px;
   border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.about-me {
+  text-align: center;
+  align-self: center;
 }
 
 .contact-form {
