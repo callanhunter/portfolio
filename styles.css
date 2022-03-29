@@ -1,15 +1,55 @@
-* {
-  padding: 0;
-  margin: 0;
+main {
+  background-color: ghostwhite;
+}
+
+nav {
+  border-bottom: 5px solid firebrick;
+}
+
+section {
+  position: relative;
 }
 
 ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  background: black;
+  background: silver;
+  padding: 20px;
+  border-bottom: 5px solid firebrick;
+}
+
+li {
+  font-size: 25px;
+}
+
+article {
+  display: flex;
+  justify-content: center;
 }
 
 a {
   color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#message {
+  height: 100px;
 }
