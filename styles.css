@@ -54,6 +54,10 @@ img {
   align-self: center;
 }
 
+.project-list {
+  display: grid;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
