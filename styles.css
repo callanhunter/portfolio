@@ -94,8 +94,54 @@ p {
   justify-content: center;
   padding-bottom: 50px;
 }
-@media screen and (min-width: 300px) {
-  main {
+@media screen and (max-width: 300px) {
+  ul,
+  .project-list {
     flex-direction: column;
+    align-items: center;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  .project-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px 25px;
+    justify-content: center;
+    padding: 50px;
+  }
+  .project-items {
+    background-color: lightblue;
+    border: 3px solid darkblue;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ul,
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  .project-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px 25px;
+    justify-content: center;
+    padding: 50px;
+  }
+  .project-items {
+    background-color: lightblue;
+    border: 3px solid darkblue;
+    text-align: center;
+    height: 60px;
+    width: 60px;
   }
 }
