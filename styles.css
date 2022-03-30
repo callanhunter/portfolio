@@ -2,17 +2,14 @@ main {
   background-color: ghostwhite;
 }
 
-nav {
-}
-
 ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  background: grey;
+  background: lightblue;
   width: 100%;
   padding: 40px;
-  border-bottom: 5px solid firebrick;
+  border-bottom: 5px solid darkblue;
 }
 
 li {
@@ -20,13 +17,13 @@ li {
 }
 
 a {
-  color: white;
+  color: darkblue;
   cursor: pointer;
   text-decoration: none;
 }
 
 li:hover {
-  background-color: darkgray;
+  background-color: aliceblue;
 }
 
 article {
@@ -48,6 +45,13 @@ img {
   border: 5px solid gainsboro;
 }
 
+p {
+  border: 5px solid darkblue;
+  color: darkblue;
+  background-color: lightblue;
+  padding: 10px;
+}
+
 #about-me {
   font-size: 40px;
 }
@@ -57,16 +61,37 @@ img {
   align-self: center;
 }
 
+#projects {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
 .project-list {
   display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+.project-items {
+  background-color: lightblue;
+  border: 5px solid darkblue;
+  text-align: center;
+  height: 40px;
+}
+
+.project-items:hover {
+  transform: scale(1.5);
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: grey;
-  border-top: 5px solid firebrick;
+  background-color: lightblue;
+  border-top: 5px solid darkblue;
+  color: darkblue;
 }
 
 #message {
