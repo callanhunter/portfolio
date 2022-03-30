@@ -42,7 +42,7 @@ img {
   width: 450px;
   border-radius: 50%;
   margin-right: 10px;
-  border: 5px solid gainsboro;
+  border: 5px solid darkblue;
 }
 
 p {
@@ -70,30 +70,19 @@ p {
 .project-list {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 50px;
-  row-gap: 30px;
+  gap: 50px 50px;
+  justify-content: center;
+  padding: 50px;
 }
 
 .project-items {
   background-color: lightblue;
   border: 5px solid darkblue;
   text-align: center;
-  height: 40px;
+  height: 120px;
+  width: 120px;
 }
 
 .project-items:hover {
-  transform: scale(1.5);
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: lightblue;
-  border-top: 5px solid darkblue;
-  color: darkblue;
-}
-
-#message {
-  height: 100px;
+  transform: scale(1.7);
 }
