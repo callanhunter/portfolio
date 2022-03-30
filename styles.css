@@ -53,6 +53,7 @@ p {
 
 #about-me {
   font-size: 40px;
+  padding-bottom: 25px;
 }
 
 .about-me-section {
@@ -64,6 +65,7 @@ p {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .project-list {
@@ -90,4 +92,10 @@ p {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 300px) {
+  main {
+    flex-direction: column;
+  }
 }
