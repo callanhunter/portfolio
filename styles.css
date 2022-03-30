@@ -7,9 +7,8 @@ ul {
   justify-content: space-evenly;
   list-style-type: none;
   background: lightblue;
-  width: 100%;
   padding: 40px;
-  border-bottom: 5px solid darkblue;
+  border: 5px solid darkblue;
 }
 
 li {
@@ -85,4 +84,10 @@ p {
 
 .project-items:hover {
   transform: scale(1.7);
+}
+
+#contact {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
