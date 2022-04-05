@@ -8,10 +8,14 @@
 
 # Usage
 
-### ![Screenshot of](images/screenshot.png)
+### ![Screenshot of HTML file](images/screenshotHTML.png)
 
 ### In the screenshot above you can see in the div with the class id of "Projects" that only one project is currently linked. As stated above, this will leave for a great layout for future use. All that is required is putting in the link.
 
 # Languages Used
 
 ### HTML and CSS were used in this project
+
+# Link
+
+### https://callanhunter.github.io/portfolio/
